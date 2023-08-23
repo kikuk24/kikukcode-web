@@ -1,0 +1,12 @@
+{
+  "main" : {
+    "name" : "Tirta Adandi",
+    "des":"saya seorang Programmer",
+    "git":"https://github.com/TirtaAdandi",
+    "project": [
+      {
+        "name": "Belajar Project React"
+      }
+    ]
+  }
+}
