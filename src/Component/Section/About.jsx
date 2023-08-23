@@ -1,9 +1,10 @@
 import { useEffect } from "react"
-import { skils } from "../../data/data"
+import { skils } from "../../data/data-skils"
 import avatar from "../../img/PAS FOTOy.jpg"
 import Button from "../Button/Button"
 import AOS from "aos"
 import 'aos/dist/aos.css'
+
 const About = () => {
   useEffect(() => {
     AOS.init()
@@ -15,20 +16,14 @@ const About = () => {
       <img src={avatar} alt="tirta" className="w-30 h-30 rounded-full md:mt-14  mt-5 items-center" />
       <div className="shadow-md flex flex-wrap mt-6 w-full md:w-1/2 md:ml-20 md:mt-14 p-10">
           <div className="md:mt-6 md:w-1/2 p-2 w-full">
-            <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eligendi alias dignissimos quaerat repellat recusandae fuga. Vero nostrum error, </p>
-          <Button color="bg-custom-red hover:bg-[#a41818] md:mt-6 mt-10">Download CV</Button>
+            <p className="">Tirta Afandi adalah seorang programmer yang memiliki minat dalam bidang teknologi informasi. </p>
+          <a href=""><Button color="bg-custom-red hover:bg-[#a41818] md:mt-6 mt-10">Download CV</Button></a>
           </div>
           
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 flex flex-wrap">
             {skils.map((skil) => (
-            <div key={skil.name} className="mt-6">
-              <h1 className="font-bold">{skil.name}</h1>
-              <div className="w-full rounded-full h-2.5 bg-gray-200">
-                <div className="h-2.5 bg-custom-red rounded-full" style={{ width: `${skil.level}` }
-                }>
-                </div>
-              </div>
-              <p className="mt-2">{skil.level}</p>  
+            <div key={skil.id} className="ml-4 mt-6 p-0 hover:scale-150 transition-all duration-500">
+              <img src={skil.icon} alt={skil.name} className="w-[40px] h-[30px]" />
             </div>
           ))}
         </div>

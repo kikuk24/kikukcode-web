@@ -7,20 +7,6 @@ import camera from "../../src/img/photo-camera.png"
 import klenteng from "../../src/img/klenteng.jpg"
 import mieayam from "../../src/img/mie-ayam.jpg"
 import potografer from "../../src/img/fotografer.jpg"
-export const skils = [
-  {
-    name: "HTML",
-    level: "90%"
-  },
-  {
-    name: "CSS",
-    level: "70%"
-  },
-  {
-    name: "JavaScript",
-    level: "90%"
-  }
-]
 
 export const sosials = [
   {
@@ -64,19 +50,19 @@ export const reviews = [
 export const services = [
   {
     name: "Web Development",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eligendi alias dignissimos quaerat repellat recusandae fuga. Vero nostrum error, ",
+    desc: "Kembangkan web yang menakjubkan dengan tim ahli kami. Pengalaman kustom, performa tinggi, dan inovasi tak terbatas. dan cepat",
     bg: "bg-custom-red",
     Image: iconWeb
   },
   {
     name: "Photography",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eligendi alias dignissimos quaerat repellat recusandae fuga. Vero nostrum error, ",
+    desc: "Ciptakan kenangan yang abadi dengan lensa kami. Foto berkelas, momen berharga, dan keindahan tak terlupakan dalam setiap jepretan.",
     bg: "bg-custom-blue text-white",
     Image: camera
   },
   {
-    name: "App Development",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eligendi alias dignissimos quaerat repellat recusandae fuga. Vero nostrum error, ",
+    name: "Desain Grafis",
+    desc: "Ciptakan kenangan yang abadi dengan lensa kami. Foto berkelas, momen berharga, dan keindahan tak terlupakan dalam setiap jepretan.",
     bg: "bg-custom-yellow",
     Image: coding
   }
