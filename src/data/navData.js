@@ -6,7 +6,7 @@ export const links = [
   },
   {
     name: "About",
-    path: "/",
+    path: "/about",
     
   },
   {

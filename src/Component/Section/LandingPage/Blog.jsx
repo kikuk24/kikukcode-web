@@ -1,5 +1,5 @@
-import CardBlog from "../Fragment/CardBlog"
-import { blogsPots } from "../../data/data"
+import CardBlog from "../../Fragment/CardBlog"
+import { blogsPots } from "../../../data/data"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
