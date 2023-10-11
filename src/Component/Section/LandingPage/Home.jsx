@@ -1,35 +1,41 @@
 import { sosials } from "../../../data/data"
 import Button from "../../Button/Button"
 import avatar from "../../../img/paskuning.jpg"
-import AOS from "aos"
+// import AOS from "aos"
 import "aos/dist/aos.css"
-import { useEffect } from "react"
+// import { useEffect } from "react"
 import { TypeAnimation } from "react-type-animation"
+import ParticlesBg from "particles-bg"
+
 
 const Home = () => {
-  useEffect(() => {
-    AOS.init()
-  }, [])
-
   return (
-    <div id="home" className="flex md:flex-row flex-col md:justify-between md:items-center pt-4 pb-16 bg-[#141E46] font-poppins px-8" data-aos="fade-in" data-aos-duration="500">
+    <div id="home" className="flex md:flex-row flex-col md:justify-between md:items-center pt-4 pb-16  font-poppins px-8">
+      <ParticlesBg color="454545" num={50} type="cobweb" bg={{
+        position: "absolute",
+        zIndex: -1,
+        top: 0,
+        left: 0,
+        background: "#F7F7F7"
+      }} />
+
       <div className="text-white md:mt-20 py-20 md:w-1/2">
-        <h1 className="md:text-[3rem] text-[2rem] font-bold text-white">Hi There,<br/>I'm Tirta Afandi</h1>
-        <p className="text-xl mt-2">I Am Into <TypeAnimation
-      sequence={[
-        'Web Developer', 
-        1000, // Waits 1s
-        'Designer Graphic', 
-        2000, // Waits 2s
-        'Photografer', 
-        3000,
-      ]}
-      wrapper="span"
-      cursor={false}
-      repeat={Infinity}
-          style={{ fontSize: '1em', display: 'inline-block', color:'gray' }}
+        <h1 className="md:text-[3rem] text-[2rem] font-bold text-[#006ba6]">Hi There,<br />I'm Tirta <span className="text-custom-red">Afandi</span></h1>
+        <p className="text-xl mt-2 text-black font-medium">I Am Into <TypeAnimation
+          sequence={[
+            'Web Developer',
+            1000, // Waits 1s
+            'Designer Graphic',
+            2000, // Waits 2s
+            'Photografer',
+            3000,
+          ]}
+          wrapper="span"
+          cursor={false}
+          repeat={Infinity}
+          style={{ fontSize: '1em', display: 'inline-block', color: '#004E85' }}
         /></p>
-        <Button color="bg-custom-red hover:bg-[#a41818] w-[9rem]  my-3">About Us</Button>
+        <Button color="bg-[#006ba6] shadow-lg shadow-[#006ba6]  hover:bg-[#a41818] w-[9rem]  my-3">About Us</Button>
         <ul className="list-none flex mb-7 content-center">
           {sosials.map((sosial) => (
             <li key={sosial.name} className="text-2xl ml-1">
@@ -37,10 +43,10 @@ const Home = () => {
             </li>
           ))}
         </ul>
-        
+
       </div>
       <div className="md:w-1/2 flex justify-center items-center">
-        <img src={avatar} alt="" className="md:w-[500px] w-[250px] rounded-full md:mt-4 " />
+        <img src={avatar} alt="" className="md:w-[500px] w-[250px] rounded-full md:mt-4 shadow-xxl" />
       </div>
     </div>
   )
