@@ -1,22 +1,19 @@
-import { services } from "../../../data/data"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
+import { skils } from "../../../data/data-skils"
 
 const Services = () => {
   useEffect(() => {
     AOS.init()
   },[])
   return (
-    <div className="min-h-screen py-[5rem] md:px-10 font-poppins" >
-      <h1 className="text-xl px-10 font-bold md:text-left text-center" data-aos="fade-up-right" data-aos-duration="2000">Services</h1>
-      <div className="flex justify-center items-center text-center flex-wrap mt-2" >
-        {services.map((service) => (
-          <div key={service.name} className={`mt-6 ${service.bg} items-center rounded-md md:h-96 max-w-sm p-8 md:ml-4 mx-5 md:w-80 text-white justify-center`} data-aos="fade-right" data-aos-duration="3000">
-            <img src={service.Image} className="w-20 mx-auto my-4 items-center" alt={service.name} />
-            <h1 className="font-bold">{service.icon}</h1>
-            <h1 className="font-bold">{service.name}</h1>
-            <p className="mt-2">{service.desc}</p>
+    <div className="min-h-screen py-[5rem] md:px-10 font-poppins bg-[#004E85]" >
+      <h1 className="text-[2rem] px-16 font-bold text-white py-8 mb-7  text-center">Skill & <span className="">Abilities</span></h1>
+        <div className="flex flex-wrap justify-center py-16 w-full px-12 bg-custom-red gap-5 rounded-md">
+           {skils.map((skil) => (
+          <div className="w-[130px] h-[100px]  bg-white rounded-md flex justify-center" key={skil.id}>
+            <img src={skil.icon} alt={skil.name} className="w-[100px] px-2 py-2" />
           </div>
         ))}
       </div>

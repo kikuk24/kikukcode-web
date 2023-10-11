@@ -9,9 +9,11 @@ import excel from "../../src/img/skill-img/microsoft-excel.svg"
 import bootstrap from "../../src/img/skill-img/bootstrap.svg"
 import corel from "../../src/img/skill-img/coreldraw-logo.svg"
 import photoshop from "../../src/img/skill-img/photoshop.svg"
+import codeigniter from "../../src/img/skill-img/codeigniter.svg"
 import express from "../../src/img/skill-img/express-js.svg"
 import typescript from "../../src/img/skill-img/typescript.svg"
 import tailwind from "../../src/img/skill-img/tailwind-css.svg"
+import php from "../../src/img/skill-img/php.svg"
 
 export const skils = [
   {
@@ -82,5 +84,15 @@ export const skils = [
     id: 14,
     icon: tailwind,
     name: "Tailwind CSS"
+  },
+  {
+    id: 15,
+    icon: codeigniter,
+    name: "codeigniter"
+  },
+  {
+    id: 16,
+    icon: php,
+    name: "php"
   }
 ]

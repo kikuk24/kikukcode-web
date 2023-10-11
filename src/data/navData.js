@@ -17,17 +17,5 @@ export const links = [
     name: "Contact",
     path: "/",
   },
-  {
-    name: "Resume",
-    path: "/resume",
-  },
-  {
-    name: "Work",
-    path: "/",
-  },
-  {
-    name: "Blog",
-    path: "/",
-  }
 ]
 

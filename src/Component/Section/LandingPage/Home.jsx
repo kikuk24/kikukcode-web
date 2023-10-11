@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { sosials } from "../../../data/data"
 import Button from "../../Button/Button"
 import avatar from "../../../img/paskuning.jpg"
@@ -10,7 +11,7 @@ import ParticlesBg from "particles-bg"
 
 const Home = () => {
   return (
-    <div id="home" className="flex md:flex-row flex-col md:justify-between md:items-center pt-4 pb-16  font-poppins px-8">
+    <div id="home" className="flex md:flex-row flex-col md:justify-between md:items-center pt-4 pb-16  font-poppins px-8 md:px-[8rem]">
       <ParticlesBg color="454545" num={50} type="cobweb" bg={{
         position: "absolute",
         zIndex: -1,
@@ -35,18 +36,17 @@ const Home = () => {
           repeat={Infinity}
           style={{ fontSize: '1em', display: 'inline-block', color: '#004E85' }}
         /></p>
-        <Button color="bg-[#006ba6] shadow-lg shadow-[#006ba6]  hover:bg-[#a41818] w-[9rem]  my-3">About Us</Button>
-        <ul className="list-none flex mb-7 content-center">
+        <Button color="bg-[#006ba6] shadow-lg shadow-[#006ba6]  hover:bg-[#004E85] w-[9rem]  my-3">About Us</Button>
+        <div className="flex py-6">
           {sosials.map((sosial) => (
-            <li key={sosial.name} className="text-2xl ml-1">
-              <a href={sosial.path}><img src={sosial.icon} className="w-8 mt-2" alt="" /></a>
-            </li>
+            <div className="ml-2  bg-black rounded-full p-2" key={sosial.name}>
+            <a href={sosial.path} className="" ><img src={sosial.icon} alt={sosial.name} className="w-[25px]" /></a>
+            </div>
           ))}
-        </ul>
-
+        </div>
       </div>
-      <div className="md:w-1/2 flex justify-center items-center">
-        <img src={avatar} alt="" className="md:w-[500px] w-[250px] rounded-full md:mt-4 shadow-xxl" />
+      <div className="md:w-1/2 flex justify-center items-center ">
+        <img src={avatar} alt="" className="md:w-[400px] w-[250px] rounded-full md:mt-4" />
       </div>
     </div>
   )
