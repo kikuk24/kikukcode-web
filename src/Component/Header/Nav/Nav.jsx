@@ -9,7 +9,7 @@ const Nav = () => {
     <div className="shadow-md w-full fixed top-0 left-0 font-poppins text-white">
       <div className="md:flex items-center justify-between bg-custom-blue py-4 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center">
-          KikukCode.
+          Kikuk Afandi.
         </div>
         <div className="absolute right-8 top-4 md:hidden" onClick={() => setOpen(!open)}>
           {open ? <XMarkIcon className="w-6 h-6"/> : <Bars3Icon className="w-6 h-6"/>}

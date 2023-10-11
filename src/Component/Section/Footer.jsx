@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
       <ItemsContainerFooter />
       <div className="text-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 px-10 py-9">
-        <span>Copyright ©2023 - {new Date().getFullYear()} KikukCode - All right reserved</span>
+        <span>Copyright ©2023 - {new Date().getFullYear()} Kikuk Afandi - All right reserved with ❤ </span>
       </div>
     </footer>
   )
