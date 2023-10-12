@@ -4,6 +4,7 @@ import Footer from "../src/Component/Section/Footer"
 import LandingPage from "./Component/pages/landingPage"
 import AboutPage from "./Component/pages/aboutPage"
 import NotFoundPage from "./Component/pages/notFoundPage"
+import ScrollToTop from "./Component/Button/ScrollToTop"
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
     <>
       <Router>
         <Nav />
+        <ScrollToTop/>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<AboutPage/>} />

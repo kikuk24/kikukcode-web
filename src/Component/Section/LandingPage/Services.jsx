@@ -8,11 +8,11 @@ const Services = () => {
     AOS.init()
   },[])
   return (
-    <div className="min-h-screen py-[5rem] md:px-10 font-poppins bg-[#004E85]" >
-      <h1 className="text-[2rem] px-16 font-bold text-white py-8 mb-7  text-center">Skill & <span className="">Abilities</span></h1>
-        <div className="flex flex-wrap justify-center py-16 w-full px-12 bg-custom-red gap-5 rounded-md">
+    <div className="font-poppins bg-[#1E91D6] w-full pb-[2.7rem]">
+      <h1 className="text-[2rem] font-bold text-white text-center py-5">Skill & <span className="text-[#004E64]">Abilities</span></h1>
+        <div className="flex flex-wrap justify-center px-4 w-96% bg-[#0072BB] gap-5 rounded-md mx-7 py-2 md:w-[80%] md:m-auto">
            {skils.map((skil) => (
-          <div className="w-[130px] h-[100px]  bg-white rounded-md flex justify-center" key={skil.id}>
+          <div className="w-[120px] h-[70px]  bg-[#F7F7F7] rounded-md flex justify-center" key={skil.id}>
             <img src={skil.icon} alt={skil.name} className="w-[100px] px-2 py-2" />
           </div>
         ))}

@@ -1,7 +1,7 @@
 import About from "../Section/LandingPage/About"
+import Education from "../Section/LandingPage/Education"
 import Home from "../Section/LandingPage/Home"
 import Services from "../Section/LandingPage/Services"
-import Blog from "../Section/LandingPage/Blog"
 
 const LandingPage = () => {
   return (
@@ -9,7 +9,7 @@ const LandingPage = () => {
       <Home/>
       <About/>
       <Services />
-      <Blog/>
+      <Education/>
     </>
   )
 }
