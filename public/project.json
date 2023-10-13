@@ -1,0 +1,26 @@
+{
+  "project": [
+    {
+      "id": 1,
+      "name": "E-Commerce Website",
+      "url": "https://kikukshop.000webhostapp.com",
+      "description": "Simple Website E-Commerce ",
+      "image": "https://i.ibb.co/1bRqB7c/ecommerce.png",
+      "tech": [
+        "React",
+        "Redux",
+        "Node",
+        "Express",
+        "MongoDB",
+        "JWT"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Portofolio Website",
+      "url": "https://kikukshop.000webhostapp.com",
+      "description": "Model Portofolio Website ",
+      "image": "https://i.ibb.co/1bRqB7c/ecommerce.png"
+    }
+  ]
+}

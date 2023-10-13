@@ -11,17 +11,17 @@ import potografer from "../../src/img/fotografer.jpg"
 export const sosials = [
   {
     name: "Instagram",
-    path: "https://instagram.com",
+    path: "https://instagram.com/kikuk_afandi/",
     icon: iconIg
   },
   {
     name: "Github",
-    path: "https://github.com",
+    path: "https://github.com/kikuk24/",
     icon: iconGit
   },
   {
     name: "Linkedin",
-    path: "https://linkedin.com",
+    path: "https://www.linkedin.com/in/tirta-afandi/",
     icon: iconLink
   }
 ]
@@ -87,4 +87,24 @@ export const blogsPots = [
     desc: "Programmer hebat ini dulunya adalah seorang photografer",
     image: potografer
   }
+]
+
+export const projects = [
+  {
+    id: 1,
+    name: 'Simple E-commerce',
+    desc: 'Project Simple E-commerce dengan fitur lengkap yang sederhana menggunakan Codeigniter',
+    tech: ['Codeigniter ', 'CSS ', 'Bootstrap'],
+    image: "../../public/project-img/e-com.png",
+    link: 'https://kikukshop.000webhostapp.com/',
+  },
+  {
+    id: 2,
+    name: 'Modern Portofolio',
+    desc: 'My modern Portofolio with a clean and modern design',
+    image: "../../public/project-img/porto.png",
+    tech: ['React', 'CSS', 'Tailwind'],
+    link: 'https://www.kikukafandi.my.id/',
+  }
+
 ]

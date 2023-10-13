@@ -11,7 +11,7 @@ import ParticlesBg from "particles-bg"
 
 const Home = () => {
   return (
-    <div id="home" className="flex md:flex-row flex-col md:justify-between md:items-center pt-4 pb-16  font-poppins px-8 md:px-[8rem]">
+    <div id="home" className="flex md:flex-row flex-col md:justify-between md:items-center pt-4 pb-16  font-poppins px-8 md:px-[8rem] min-h-screen">
       <ParticlesBg color="454545" num={50} type="cobweb" bg={{
         position: "absolute",
         zIndex: -1,
@@ -36,7 +36,7 @@ const Home = () => {
           repeat={Infinity}
           style={{ fontSize: '1em', display: 'inline-block', color: '#004E85' }}
         /></p>
-        <Button color="bg-[#006ba6] shadow-lg shadow-[#006ba6]  hover:bg-[#004E85] w-[9rem]  my-3">About Us</Button>
+        <Button color="bg-[#006ba6] shadow-lg shadow-[#006ba6]  hover:bg-[#004E85] w-[9rem]  my-3" ><a href="/#about" className="">About Us</a></Button>
         <div className="flex py-6">
           {sosials.map((sosial) => (
             <div className="ml-2  bg-black rounded-full p-2" key={sosial.name}>

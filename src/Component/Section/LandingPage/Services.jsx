@@ -8,7 +8,7 @@ const Services = () => {
     AOS.init()
   },[])
   return (
-    <div className="font-poppins bg-[#1E91D6] w-full pb-[2.7rem]">
+    <div className="font-poppins bg-[#1E91D6] w-full pb-[2.7rem]" id="skills">
       <h1 className="text-[2rem] font-bold text-white text-center py-5">Skill & <span className="text-[#004E64]">Abilities</span></h1>
         <div className="flex flex-wrap justify-center px-4 w-96% bg-[#0072BB] gap-5 rounded-md mx-7 py-2 md:w-[80%] md:m-auto">
            {skils.map((skil) => (
