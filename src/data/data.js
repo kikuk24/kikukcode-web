@@ -7,6 +7,8 @@ import camera from "../../src/img/photo-camera.png"
 import klenteng from "../../src/img/klenteng.jpg"
 import mieayam from "../../src/img/mie-ayam.jpg"
 import potografer from "../../src/img/fotografer.jpg"
+import porto from "../../src/img/porto.png"
+import ecom from "../../src/img/e-com.png"
 
 export const sosials = [
   {
@@ -95,14 +97,14 @@ export const projects = [
     name: 'Simple E-commerce',
     desc: 'Project Simple E-commerce dengan fitur lengkap yang sederhana menggunakan Codeigniter',
     tech: ['Codeigniter ', 'CSS ', 'Bootstrap'],
-    image: "../../public/project-img/e-com.png",
+    image: ecom,
     link: 'https://kikukshop.000webhostapp.com/',
   },
   {
     id: 2,
     name: 'Modern Portofolio',
     desc: 'My modern Portofolio with a clean and modern design',
-    image: "../../public/project-img/porto.png",
+    image: porto,
     tech: ['React', 'CSS', 'Tailwind'],
     link: 'https://www.kikukafandi.my.id/',
   }
