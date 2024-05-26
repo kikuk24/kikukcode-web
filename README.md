@@ -1,4 +1,4 @@
-# Portfolio Website - John Doe
+# Portfolio Website - Tirta Afandi (Kikuk)
 
 ## Overview
 
