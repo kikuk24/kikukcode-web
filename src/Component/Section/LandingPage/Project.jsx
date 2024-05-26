@@ -5,12 +5,13 @@ import { projects } from "../../../data/data"
 const Project = () => {
 
   return (
-    <div id="projects" className='w-full font-poppins bg-[#F7F7F7]'>
+    <div className="bg-[#F7F7F7]" id="projects">
+      <div className='max-w-7xl mx-auto font-poppins '>
       <h1 className="font-bold text-center text-[2.3rem] py-9">My <span className="">Project</span></h1>
       <p className="text-center mb-3">Latest Project</p>
-      <div className="w-full m-auto   px-4 py-4 flex gap-7 justify-center flex-wrap">
+        <div className="grid gap-y-12 sm:grid-cols-2 sm:gap-10 md:gap-x-4 md:grid-cols-3 lg:gap-x-20 lg:gap-y-24">
         {projects.map((project) => (
-          <div className=" min-w-[100px] w-[300px] rounded-t-lg shadow-lg" key={project.id}>
+          <div className="rounded-t-lg shadow-lg" key={project.id}>
             <div className="rounded-t-md">
               <img src={project.image} alt="" className="transition-transform object-cover" />
             </div>
@@ -22,6 +23,8 @@ const Project = () => {
           </div>
         ))}
       </div>
+    </div>
+
     </div>
   )
 }

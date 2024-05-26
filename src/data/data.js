@@ -9,6 +9,8 @@ import mieayam from "../../src/img/mie-ayam.jpg"
 import potografer from "../../src/img/fotografer.jpg"
 import porto from "../../src/img/porto.png"
 import ecom from "../../src/img/e-com.png"
+import kcd from "../../src/img/kikukcodeWebsite.png"
+import msb from "../../src/img/muscb.png"
 
 export const sosials = [
   {
@@ -95,7 +97,7 @@ export const projects = [
   {
     id: 1,
     name: 'Simple E-commerce',
-    desc: 'Project Simple E-commerce dengan fitur lengkap yang sederhana menggunakan Codeigniter',
+    desc: 'Simple project e-commerce using Codeigniter, with bootstrap',
     tech: ['Codeigniter ', 'CSS ', 'Bootstrap'],
     image: ecom,
     link: 'https://kikukshop.000webhostapp.com/',
@@ -107,6 +109,21 @@ export const projects = [
     image: porto,
     tech: ['React', 'CSS', 'Tailwind'],
     link: 'https://www.kikukafandi.my.id/',
+  }, {
+    id: 3,
+    name: 'Kikucode Official Website',
+    desc: 'Project fullstack website, using laravel focus to SEO for website',
+    image: kcd,
+    tech: ['laravel', 'Tailwind', 'Vite'],
+    link: 'https://www.kikukcode.com/',
+  },
+  {
+    id: 4,
+    name: 'Web App Evoting Online',
+    desc: 'Project E-voting for organization reorganization, Codeigniter 3 and bootstrap',
+    image: msb,
+    tech: ['laravel', 'bootstrap', 'mysql', 'php'],
+    link: '#',
   }
 
 ]
