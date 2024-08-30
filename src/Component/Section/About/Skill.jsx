@@ -1,7 +1,7 @@
-import { skils } from "../../../data/data-skils"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
+import { skils } from "../../../data/main-data"
 const Skill = () => {
   useEffect(() => {
     AOS.init()

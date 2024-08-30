@@ -1,14 +1,10 @@
-import excel from "../../src/img/skill-img/microsoft-excel.svg"
 import mySQL from "../../src/img/skill-img/mysql-ar21.svg"
 import html from "../../src/img/skill-img/html-5.svg";
 import reactIcon from "../../src/img/skill-img/react.svg";
 import nodejs from "../../src/img/skill-img/nodejs.svg";
 import css from "../../src/img/skill-img/css.svg";
 import js from "../../src/img/skill-img/js.svg";
-import word from "../../src/img/skill-img/microsoft-word.svg";
 import bootstrap from "../../src/img/skill-img/bootstrap.svg";
-import corel from "../../src/img/skill-img/coreldraw-logo.svg";
-import photoshop from "../../src/img/skill-img/photoshop.svg";
 import codeigniter from "../../src/img/skill-img/codeigniter.svg";
 import express from "../../src/img/skill-img/express-js.svg";
 import typescript from "../../src/img/skill-img/typescript.svg";
@@ -59,46 +55,45 @@ export const skils = [
   },
   {
     id: 9,
-    icon: word,
-    name: "Microsoft Word"
-  },
-  {
-    id: 10,
-    icon: excel,
-    name: "Microsoft Excel"
-  },
-  {
-    id: 11,
-    icon: corel,
-    name: "Corel Draw"
-  },
-  {
-    id: 12,
-    icon: photoshop,
-    name: "Photoshop"
-  }, {
-    id: 13,
     icon: typescript,
     name: "TypeScript"
   },
   {
-    id: 14,
+    id: 10,
     icon: tailwind,
     name: "Tailwind CSS"
   },
   {
-    id: 15,
+    id: 11,
     icon: codeigniter,
     name: "codeigniter"
   },
   {
-    id: 16,
+    id: 12,
     icon: php,
     name: "php"
   },
   {
-    id: 17,
+    id: 13,
     icon: laravel,
     name: "Laravel"
   }
+]
+
+export const education = [
+  {
+    id: 1,
+    img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFokgbolinb-B_d1I-SxiQH-i5qfGZ4O9oU4Opsiy6rN9QyGGLefTHouro21U5IOQBjO3Ow46miTu4N3OrNsdm_thrvlpXztl7F0NMgMrzN_lVJE9yBtLnuqrwonMKgdJu6gdPn0vsRobhj_iVrTzkmMgdL9zgLjHg30PDW5VcvZfHbBImcE_0SuB90Q/s1040/52843A32-3D59-454C-8A76-6F78E1F60F92.jpeg',
+    nama: 'SMKN 1 TUBAN',
+    tahunPendidikan: '2020-2023 | Completed',
+    jurusan: 'Bussines Contruction and Property'
+  },
+  {
+    id: 2,
+    img: 'https://masuk-ptn.com/images/product/5d8433d10a683573724bd701934bc3dd502e212b.jpg',
+    nama: 'POLITEKNIK ELEKTRONIKA NEGERI SURABAYA',
+    tahunPendidikan: '2024-2027(Expected) | On going',
+    jurusan: 'Bachelor of Applied Computer Engineering'
+  },
+
 ]

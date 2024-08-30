@@ -11,6 +11,7 @@ import porto from "../../src/img/porto.png"
 import ecom from "../../src/img/e-com.png"
 import kcd from "../../src/img/kikukcodeWebsite.png"
 import msb from "../../src/img/muscb.png"
+import quiz from "../../src/img/quizz.png"
 
 export const sosials = [
   {
@@ -112,7 +113,7 @@ export const projects = [
   }, {
     id: 3,
     name: 'Kikucode Official Website',
-    desc: 'Project fullstack website, using laravel focus to SEO for website',
+    desc: 'Project fullstack website blogging and e-comerce, using laravel focus to SEO for website and integrated with payment gateway (Midtrans)',
     image: kcd,
     tech: ['laravel', 'Tailwind', 'Vite'],
     link: 'https://www.kikukcode.com/',
@@ -124,6 +125,14 @@ export const projects = [
     image: msb,
     tech: ['laravel', 'bootstrap', 'mysql', 'php'],
     link: '#',
+  },
+  {
+    id: 5,
+    name: 'Quiz App',
+    desc: 'Project Chalengge using react js',
+    image: quiz,
+    tech: ['React JS'],
+    link: 'https://github.com/kikuk24/challenge-frontend-react.js-quizz-app',
   }
 
 ]

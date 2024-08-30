@@ -11,7 +11,7 @@ import ParticlesBg from "particles-bg"
 
 const Home = () => {
   return (
-    <div id="home" className="flex md:flex-row flex-col md:justify-between md:items-center pt-4 pb-16  font-poppins px-8 md:px-[8rem] min-h-screen">
+    <div id="home" className="flex md:flex-row flex-col md:justify-between md:items-center pt-4 pb-16  font-poppins px-8 md:px-[8rem] min-h-screen max-w-7xl mx-auto">
       <ParticlesBg color="454545" num={50} type="cobweb" bg={{
         position: "absolute",
         zIndex: -1,
